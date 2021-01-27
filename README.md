@@ -14,3 +14,6 @@
 6. cd ย้อนกลับไปที่โปรเจค (หน้าที่มี app.py)
 7. พิมพ์ pip install -r req.txt
 8. เมื่อติดตั้ง package เสร็จ พิมพ์ python app.py
+
+#DEMO
+https://newsapp-homework-1.herokuapp.com/
