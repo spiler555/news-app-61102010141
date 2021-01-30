@@ -9,11 +9,11 @@ app = Flask(__name__)
 
 OPEN_WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather?q={0}&units=metric&APPID={1}"
 
-OPEN_WEATHER_KEY = '8de35454b80095839c0180234e103a32'
+OPEN_WEATHER_KEY = 'YOUR_OPENWEATHER_API_KEY'
 
 NEWS_API_URL = 'https://newsapi.org/v2/everything?q={0}&apiKey={1}'
 
-NEWS_API_KEY = '0f4d9a8351aa45ee843ec3e0b75ecf33'
+NEWS_API_KEY = 'YOUR_NEWS_API_KEY'
 
 @app.route('/about')
 def about():
